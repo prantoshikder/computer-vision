@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*------ Google Fonts Link ------*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    outline: none;
+    border: none;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+li,
+ol,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-1 {
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid #3dc1d3;
+    color: #fff !important;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.btn-1:hover {
+    background-color: #3dc1d3;
+    border: 1px solid #3dc1d3;
+    color: #fff !important;
+    border: none;
+}
+
+.btn-2 {
+    padding: 12px 30px;
+    border-radius: 30px;
+    background-color: #3dc1d3;
+    color: #fff !important;
+    border: 1px solid #3dc1d3;
+    border: none;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.btn-2:hover {
+    background-color: transparent;
+    border: 1px solid #3dc1d3;
+    color: #fff !important;
+}
+
+.about_heading h2 {
+    padding: 25px 0px;
+    letter-spacing: 5px;
+    color: gray;
+}
+
+.sp_heading h2 {
+    letter-spacing: 5px;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.workshop_heading h2 {
+    padding: 25px 0px;
+    letter-spacing: 5px;
+    color: gray;
+}
+
+.footer_heading h2 {
+    letter-spacing: 5px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    padding: 30px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+
+/*------ Common CSS ------*/
+
+
+/*------ Main CSS Start ------*/
+
+
+/*------ Hero Part Start ------*/
+
+.hero_area_part {
+    background-image: url(../img/background-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar {}
+
+.navbar-brand {
+    display: flex;
+}
+
+.navbar-brand h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 15px;
+}
+
+.navbar-brand span {
+    color: #3dc1d3;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.navbar-nav {}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-collapse form {}
+
+form .btn-3 {
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #3dc1d3;
+    color: #fff !important;
+    border: none;
+    border: none;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+form .btn-3:hover {
+    background-color: #3dc1d3;
+    color: #fff !important;
+    border: none;
+}
+
+.hero_content {
+    padding: 200px 0px;
+}
+
+.hero_content h1 {
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+
+/*------ Hero Part End ------*/
+
+
+/*------ About Part Start ------*/
+
+.about_area_part {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.about_content {
+    padding-top: 30px;
+}
+
+.about_content p {
+    text-align: justify;
+    line-height: 28px;
+    padding-top: 5px;
+}
+
+
+/*------ About Part End ------*/
+
+
+/*------ Speaker Part Start ------*/
+
+.speaker_area_part {
+    background-image: url(../img/speaker-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 70px;
+}
+
+.sp_bg_overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100px 0px;
+}
+
+.sp_content {}
+
+.sp_content p {
+    color: #ffffff;
+    padding-bottom: 35px;
+}
+
+.sp_content .btn-2 {
+    font-size: 18px;
+}
+
+
+/*------ Speaker Part End ------*/
+
+
+/*------ Workshop Part Start ------*/
+
+.workshop_area_part {
+    padding-bottom: 50px;
+}
+
+.workshop-content {
+    padding-top: 25px;
+}
+
+.workshop-items {
+    border-radius: 15px;
+    border: 1px solid rgb(230, 225, 225);
+    transition: all linear .3s;
+}
+
+.workshop-items:hover {
+    box-shadow: 5px 5px 15px gray;
+    border: none;
+}
+
+.workshop-content {
+    padding: 15px 20px 30px;
+}
+
+.workshop-items:hover .workshop-img img {
+    transform: scale(1.2);
+}
+
+.workshop-img {
+    overflow: hidden;
+}
+
+.workshop-img img {
+    transition: all linear .3s;
+}
+
+.workshop-content p {
+    padding-bottom: 10px;
+}
+
+.workshop-content .btn-2 {
+    margin-top: 10px;
+}
+
+.workshop-content .btn-2:hover {
+    color: #3dc1d3 !important;
+    letter-spacing: 2px;
+}
+
+
+/*------ Workshop Part End ------*/
+
+
+/*------ Footer Part Start ------*/
+
+.footer_area_part {
+    background-color: #3d3d3d;
+    padding: 15px 0px;
+}
+
+form {}
+
+form input {
+    padding: 7px 105px 7px 25px;
+    margin-top: 10px;
+    border: 1px solid #3dc1d3;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 15px;
+}
+
+form .btn-2 {
+    margin-top: 15px;
+}
+
+.footer_content h5 {
+    color: #aaa69d;
+}
+
+.footer_content h6 {
+    color: #cc8e35;
+}
+
+.footer_content {
+    padding-top: 45px;
+}
+
+
+/*------ Footer Part End ------*/
