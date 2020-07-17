@@ -166,6 +166,14 @@ button {
     font-weight: 700;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #3dc1d3;
+}
+
 .navbar-nav {}
 
 .navbar-nav .nav-item {
